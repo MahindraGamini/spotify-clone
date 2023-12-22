@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Spotify</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylespo.css">
+    
+</head>
+<body>
+<nav>
+    <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+        
+    </ul>
+</nav>
+<div class="container">
+    
+    <div class="songlist">
+        <h1>Your Playlist</h1>
+        <div>
+            <div class="songitem">
+                <img src="C:\Users\mural\OneDrive\Desktop\spot\cover\1.jpg" alt="coverpic">
+                <span class="songname">Mumbai ka Hero</span>
+                <span class="songlistplay"><span class="timestamp">03:05</span><i id="1" class="fa-solid songitemplay fa-2x fa-circle-play"></i></span>
+            </div>
+            <div>
+                <div class="songitem">
+                    <img src="C:\Users\mural\OneDrive\Desktop\spot\cover\6.jpg" alt="coverpic">
+                    <span class="songname">Swing king</span>
+                    <span class="songlistplay"><span class="timestamp">03:05</span><i id="2" class="fa-solid songitemplay fa-2x fa-circle-play"></i></span>
+                </div>
+                <div>
+                    <div class="songitem">
+                        <img src="C:\Users\mural\OneDrive\Desktop\spot\cover\3.jpg" alt="coverpic">
+                        <span class="songname"> Sher aya Sher</span>
+                        <span class="songlistplay"><span class="timestamp">03:05</span><i id="3" class="fa-solid songitemplay fa-2x fa-circle-play"></i></span>
+                    </div>
+                    <div>
+                        <div class="songitem">
+                            <img src="C:\Users\mural\OneDrive\Desktop\spot\cover\4.jpg" alt="coverpic">
+                            <span class="songname">soorede</span>
+                            <span class="songlistplay"><span class="timestamp">03:05</span><i id="4" class="fa-solid songitemplay fa-2x fa-circle-play"></i></span>
+                        </div>
+                        <div>
+                            <div class="songitem">
+                                <img src="C:\Users\mural\OneDrive\Desktop\spot\cover\5.jpg" alt="coverpic">
+                                <span class="songname">Mahi</span>
+                                <span class="songlistplay"><span class="timestamp">03:05</span><i id="5" class="fa-solid songitemplay fa-2x fa-circle-play"></i></span>
+                            </div>
+        </div>
+    <div class="songbanner">
+
+    </div>
+</div>
+<div class="bottom">
+    <input type="range" name="range" id="myprogressBar" min="0" value="0" max="100">
+    <div class="icons">
+        <i class="fa-solid  fa-3x fa-arrow-left-long" id="previous"></i>
+        <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+        <i class="fa-solid  fa-3x fa-arrow-right-long" id="next"></i>
+    </div>
+    <div class="songinfo">
+        <img src="playing.gif" width="24px"><span id="masterSongName" >Soorede</span>
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/e92d214d02.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
